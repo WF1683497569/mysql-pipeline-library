@@ -1,6 +1,8 @@
-package com.che300
+package org.devops
 
 import groovy.sql.Sql
+@Grab('mysql:mysql-connector-java:8.0.23')
+@GrabConfig(systemClassLoader=true)
 
 /**
  * @author fwei* @date 2021/1/25 17:38
